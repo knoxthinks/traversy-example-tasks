@@ -1,0 +1,67 @@
+1/23/23 pomo1
+REACT creates a SPA
+routing through react, then compiles through a javascript bundler
+php/laravel on backend, django/python
+
+requests from react to the server.
+Use of the view layer- REACT is basically the V in MVC
+reusuable componenets - everyone writes vanilla JS differently
+
+get familiar with Fetch API and http requests
+
+function componenets with hooks seem to be more popular now
+
+react 16.8 function components can now useState with hooks.
+(react hooks are functions that let us hook into the React State)
+
+Bookmark 12:41 Create a react App
+
+1/24/22
+bookrmark 14:44
+
+1/26/22
+a note on JSX
+class attributes are className
+for loops htmlFor
+
+gives an example of how to create and import a component to App.js
+bookmark 25:54
+
+1/27/22
+different ways of using a component
+copied style sheet from his github
+bookmark 32:57
+
+1/28/23
+an example of state and useState hooks.
+bookmark 45:00
+
+1/31/23
+practice npm start
+
+2/1/23
+actions get passed up
+state gets passed down
+filter() deleteTask = filters out the task
+bookmark 56:09
+
+2/2/23
+1:20:00 ends the frontend portion of the course
+npm run build. deploy static assets.
+the "build" gets pushed to prod
+the difference between development and prod assets
+1:21:00 gives more examples on a mock production json server
+
+1:26:00 and example of useState
+bookmark 1:27:20
+
+2/2/23
+useEffect and async fetches
+fetch returns a promise
+alot of fetch examples here. add/delete/update
+these fetches all exist on the app.js
+bookmark 1:39:21
+should get this attempt on github
+
+
+

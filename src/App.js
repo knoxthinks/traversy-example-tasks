@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react";
+
+import { Tasks } from "./components/Tasks";
+import Header from "./components/Header";
 
 function App() {
+  const name = 'brad'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>G'day from VSCode</h1>
+      <h2>hello {name}</h2>
+      <h2>is there a name? {name ? 'yes' : 'no'}</h2>
+      {/* <Header title='Hello'/> */}
+      <Header title={'25'}/>
+      <Tasks />
     </div>
   );
 }
 
+// class App extends React.Component{
+//   render(){
+//     return <h1>This is a CLASS component syntax</h1>
+//   }
+// }
 export default App;
